@@ -1,0 +1,26 @@
+// we find out triangle are . given that three arms
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    // variable declear
+    int a,b,c,area,s;
+// input variable value
+cout<<"Enter the value of a : ";
+cin>>a;
+cout<<"Enter the value of b : ";
+cin>> b;
+cout <<"Enter the value of c : ";
+cin>> c;
+
+//half perimeter 
+s = (a + b + c)/2;
+
+ // law of triangle area
+area = sqrt(s*((s-a)*(s-b)*(s-c)));;
+    
+    cout<<"The triangle area is : "<< area<<endl;
+    
+    return 0;
+}
