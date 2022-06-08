@@ -1,0 +1,23 @@
+// Give the radius of circle . determine the range
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+
+{
+    // variable declear
+    int PI,r,range;
+    
+    cout<<"Enter the radius of circle : ";
+    cin>>r;
+    
+    PI = acos(-1);
+    
+    range = 2*PI*r;
+    
+    // display the answer
+    cout<<"The area range of circle : "<< range<<endl;
+    
+    return 0;
+    
+}
