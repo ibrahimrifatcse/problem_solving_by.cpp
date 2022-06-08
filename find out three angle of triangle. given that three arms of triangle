@@ -1,0 +1,48 @@
+//given that three arms of triagnle . find out of three angle of triangle
+
+#include<iostream>
+#include<cmath>
+using namespace std;
+
+int main()
+{
+
+   // integer declearation
+   
+     int a,b,c,A,B,C,alpha,beta,gamma,angle1,angle2,angle3,PI;
+ 
+ // take input value of arms (a,b,c)
+ 
+     cout<<"Enter the value of a : ";
+     cin>>a;
+     cout<<"Enter the value of b : ";
+     cin>>b;
+     cout<<"Enter the value of c : ";
+     cin>>c;
+
+//modified cosine law
+
+    C= (a*a + b*b - c*c)/ (2*a*b);
+    B = (a*a + c*c - b* b)/ (2*a*c);
+    A = (b*b + c*c - a*a)/ (2*b*c);
+   PI = acos(-1);
+
+
+     alpha = acos(A);
+     beta = acos(B);
+     gamma= acos(C);
+     
+     // redian to degree convert
+
+angle1 = alpha * 180 /PI;
+angle2 = gamma *180/PI;
+angle3 = beta * 180/PI;
+
+
+cout<<"The value of alpha :"<<angle1<<endl;
+cout<<"The value of beta : "<<angle2<<endl;
+cout<<"The value of gamma : "<<angle3<<endl;
+
+
+    return 0;
+}
