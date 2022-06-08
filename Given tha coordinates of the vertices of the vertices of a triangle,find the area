@@ -1,0 +1,50 @@
+// Given tha coordinates of the vertices of the vertices of a triangle,find the area
+
+
+#include<iostream>
+#include<cmath>
+using namespace std;
+
+int main()
+{
+    //variable declear
+   int x1,y1,z1,x2,y2,z2,x3,y3,z3,times,area,AB,BA,A,B,C;
+   cout<<"Enter the value of x1 : ";
+   cin>>x1;
+   cout<<"Enter the value of y1 : ";
+   cin>>y1;
+   cout<<"Enter the value of z1 : ";
+   cin>> z1;
+   cout<<"Enter the value of x2 : ";
+   cin>>x2;
+   cout<<"Enter the value of y2 : ";
+   cin>>y2;
+   cout<<"Enter the value of z2 : ";
+   cin>> z2;
+   cout<<"Enter the value of x3 : ";
+   cin>>x3;
+   cout<<"Enter the value of y3 : ";
+   cin>>y3;
+   cout<<"Enter the value of z3 : ";
+   cin>> z3;
+   
+   // Our goal A value will be zero. 
+   
+   A = ((x1 - x1),(y1-y1));
+   B = ((x2 - x1),(y2-y1));
+   C = ((x3-x1),(y3-y1));
+   
+   // bhuj of B * crore of C
+   // crore of B * bhuj of C
+   
+   AB = ((x2 - x1)*(y3-y1));
+   BA = ((y2-y1)*(x3-x1));
+    // 
+    times = AB*BA;
+    
+   area = 0.5*times;
+   
+   cout<<"the area of triangle : "<<area<<endl;
+   
+    return 0;
+}
