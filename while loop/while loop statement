@@ -1,0 +1,16 @@
+#include<iostream>
+ 
+using namespace std;
+int main()
+{
+     
+     int i;
+     //while looping
+     while(i<=100){
+         cout<<"#I_Love_prophet_mohammad_S.W.E"<<endl;
+         i++;
+     }
+     cout<<"-------------End of the end looping----------------";
+     
+   return 0;
+}
