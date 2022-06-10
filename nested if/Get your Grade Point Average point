@@ -1,0 +1,62 @@
+//nested if 
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    float mark,mark1,mark2,mark3,mark4,total;
+    
+    cout<<"Enter your 1st subject  gpa1 : "  ;
+    cin>>mark1;
+    cout<<"Enter your 1st subject   gpa2 : "  ;
+    cin>>mark2;
+    cout<<"Enter your 1st subject   gpa3 : "  ;
+    cin>>mark3;
+    cout<<"Enter your 1st subject   gpa4 : "  ;
+    cin>>mark4;
+    
+    // avarage your number
+    total = (mark1+mark2+mark3+mark4)/4;
+    
+    
+    
+    //if , else, else if condition
+     
+     if(mark1 >=4.0001){
+         cout<<"you data is false"<<endl;
+     }
+     
+     else if(mark2 >=4.0001){
+         cout<<"you data is false"<<endl;
+     }
+     else if(mark3 >=4.0001){
+         cout<<"you data is false"<<endl;
+     }
+     
+     else if(mark4 >=4.0001){
+         cout<<"you data is false"<<endl;
+     }
+     else if(mark4 >=4.0001){
+         cout<<"you data is false"<<endl;
+     }
+      else if(mark1 ==0){
+         cout<<"you are fail"<<endl;
+     }
+      else if(mark2 ==0){
+         cout<<"you are fail"<<endl;
+     }
+      else if(mark3 ==0){
+         cout<<"you are fail"<<endl;
+     }
+      else if(mark4 ==0){
+         cout<<"you are fail"<<endl;
+     }
+      
+    else{ 
+         cout<<"your GPA is : "<<total<<endl;
+        }
+     
+        
+     
+   return 0;
+}
