@@ -1,0 +1,62 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    //declear integer. 
+    int n,row,col;
+    //take input from user
+    cout<<"Enter a integer number : ";
+    cin>>n;
+    //apply condition 
+    for(row=1; row<=n;row++)
+    {
+        for(col=1;col<=row;col++){
+        cout<<""<<col;
+           
+        }
+         cout<<endl;
+    }
+
+    
+    
+    
+    return 0;
+    
+}
+
+
+
+
+// if want you can print row
+
+/*
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    //declear integer. 
+    int n,row,col;
+    //take input from user
+    cout<<"Enter a integer number : ";
+    cin>>n;
+    //apply condition 
+    for(row=1; row<=n;row++)
+    {
+        for(col=1;col<=row;col++){
+        cout<<""<<row;
+           
+        }
+         cout<<endl;
+    }
+
+    
+    
+    
+    return 0;
+    
+}
+*/
