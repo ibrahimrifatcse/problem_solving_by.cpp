@@ -1,0 +1,32 @@
+// this code tell you user number is positive,nagative or zero. 
+
+#include<iostream>
+ 
+using namespace std;
+int main()
+{
+    
+    //variable declearation
+    int n;
+    
+  // take input from user
+  cout<<"Enter a value : ";
+  cin>>n;
+    //codition 
+    // if is selection condition
+    if(n>0){
+        cout<<"This is possitive value";
+    }
+    else if(n<0){
+        cout<<"This is nagative value";
+    }
+    
+    else {
+        cout<<"this is zero";
+    }
+
+    
+    
+    
+   return 0;
+}
