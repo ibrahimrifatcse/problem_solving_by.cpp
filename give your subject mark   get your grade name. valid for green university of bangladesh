@@ -1,0 +1,176 @@
+#include <iostream>
+
+
+using namespace std;
+
+int main() {
+    
+    
+    //variable declear
+     int mark1,mark2,mark3,mark4;
+     
+     
+     // enter your 1st subject mark
+    cout<<"Enter your 1st subject mark1  : "  ;
+    cin>>mark1;
+   
+     if(mark1>32) {
+         cout<<"your gpa is : F"<<endl;
+     }
+     else if(mark1>=80){
+         cout<<"your gpa is : A+"<<endl;
+     }
+     else if (mark1>=75){
+         cout<<"your gpa is : A"<<endl;
+     }
+     else if (mark1=70){
+         cout<<"your gpa is : A-"<<endl;
+     }
+     else if (mark1>=65){
+         cout<<"your gpa is : B+"<<endl;
+     }
+     else if (mark1>=60){
+         cout<<"your gpa is : B"<<endl;
+     }
+     else if (mark1>55){
+         cout<<"your gpa is : B-"<<endl;
+     }
+     else if (mark1>50){
+         cout<<"your gpa is : C+"<<endl;
+     }
+     else if (mark1>=45){
+         cout<<"your gpa is : c"<<endl;
+     }
+     else if (mark1>=40){
+         cout<<"your gpa is : D"<<endl;
+     }
+      
+     else{
+         cout<<"you won't attend in exam"<<endl;
+     }
+     
+      cout<<"Enter your 1st subject mark2 : "  ;
+    cin>>mark2;
+    
+    // Enter your second mark
+     
+    if(mark2>32) {
+         cout<<"your gpa is : F"<<endl;
+     }
+     else if(mark2>=80){
+         cout<<"your gpa is : A+"<<endl;
+     }
+     else if (mark2>=75){
+         cout<<"your gpa is : A"<<endl;
+     }
+     else if (mark2>=70){
+         cout<<"your gpa is : A-"<<endl;
+     }
+     else if (mark2>=65){
+         cout<<"your gpa is : B+"<<endl;
+     }
+     else if (mark2>=60){
+         cout<<"your gpa is : B"<<endl;
+     }
+     else if (mark2>=55){
+         cout<<"your gpa is : B-"<<endl;
+     }
+     else if (mark2>50){
+         cout<<"your gpa is : C+"<<endl;
+     }
+     else if (mark2>=45){
+         cout<<"your gpa is : c"<<endl;
+     }
+     else if (mark2>=40){
+         cout<<"your gpa is : D"<<endl;
+     }
+      
+     else{
+         cout<<"you won't attend in exam"<<endl;
+     }
+     
+     //enter your third mark
+     
+    cout<<"Enter your 1st subject mark3  : "  ;
+    cin>>mark3;
+    
+    if(mark3>32) {
+         cout<<"your gpa is : F"<<endl;
+     }
+     else if(mark3>=80){
+         cout<<"your gpa is : A+"<<endl;
+     }
+     else if (mark3>=75){
+         cout<<"your gpa is : A"<<endl;
+     }
+     else if (mark3>=70){
+         cout<<"your gpa is : A-"<<endl;
+     }
+     else if (mark3>=65){
+         cout<<"your gpa is : B+"<<endl;
+     }
+     else if (mark3>=60){
+         cout<<"your gpa is : B"<<endl;
+     }
+     else if (mark3>=55){
+         cout<<"your gpa is : B-"<<endl;
+     }
+     else if (mark3>=50){
+         cout<<"your gpa is : C+"<<endl;
+     }
+     else if (mark3>=45){
+         cout<<"your gpa is : c"<<endl;
+     }
+     else if (mark3>=40){
+         cout<<"your gpa is : D"<<endl;
+     }
+      
+     else{
+         cout<<"you do not attend in exam"<<endl;
+     }
+     
+     
+     cout<<"Enter your 1st subject mark4 : "  ;
+     cin>>mark4;
+     
+     
+     //enter your forth mark
+    
+     if(mark4>32) {
+         cout<<"your gpa is : F"<<endl;
+     }
+     else if(mark4>=80){
+         cout<<"your gpa is : A+"<<endl;
+     }
+     else if (mark4>=75){
+         cout<<"your gpa is : A"<<endl;
+     }
+     else if (mark4>=70){
+         cout<<"your gpa is : A-"<<endl;
+     }
+     else if (mark4>=65){
+         cout<<"your gpa is : B+"<<endl;
+     }
+     else if (mark4>=60){
+         cout<<"your gpa is : B"<<endl;
+     }
+     else if (mark4>=55){
+         cout<<"your gpa is : B-"<<endl;
+     }
+     else if (mark4>=50){
+         cout<<"your gpa is : C+"<<endl;
+     }
+     else if (mark4>=45){
+         cout<<"your gpa is : c"<<endl;
+     }
+     else if (mark4>=40){
+         cout<<"your gpa is : D"<<endl;
+     }
+      
+     else{
+         cout<<"you do not attend in exam"<<endl;
+     }
+     
+
+    return 0;
+}
