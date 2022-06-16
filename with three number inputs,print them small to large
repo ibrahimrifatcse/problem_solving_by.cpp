@@ -1,0 +1,56 @@
+     #include<iostream>
+     #include<cmath>
+     using namespace std;
+     int main()
+     {
+         //variable declear
+         int x,y,z,a,b,c,d,e,f,g,h,i,j,k,l;
+         //take input from user 
+         cout<<"enter first number : ";
+         cin>>x;
+         cout<<"enter second number : ";
+         cin>>y;
+         cout<<"enter third number : ";
+         cin>>z;
+         
+         
+         a=x>y & x>z;
+         b =y>z & y<x;
+         c=y>x & y>z;
+         d=x>z & z<x;
+         e=z>x & z>y;
+         f=x>y & x<z;
+         g=z>x & z>y;
+         h=y>x & y<z;
+         i=x>y & x>z;
+         j=z>y & z<x;
+         k=y>x & y>z;
+         l=z>x & z<y;
+         
+         // condition apply
+        if(a & b){
+            cout<<x<<","<<y<<","<<z;
+        }
+        else if (c & d){
+            cout<<y<<","<<x<<","<<z;
+        }
+        
+        else if (e & f){
+            cout<<z<<","<<x<<","<<y;
+        }
+        else if (g & h){
+            cout<<z<<","<<y<<","<<x;
+        }
+        else if (i & j){
+            cout<<x<<","<<z<<","<<y;
+        }
+        
+        else if (k & l){
+            cout<<y<<","<<z<<","<<x;
+        }
+        else cout<<"NONE";
+         
+         
+         
+         return 0;
+     }
