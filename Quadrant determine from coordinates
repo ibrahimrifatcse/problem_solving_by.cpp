@@ -1,0 +1,35 @@
+//by this code we find out quadrant
+// give value of x and y get quadrant name
+
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    
+    double x,y;
+    //take input from user 
+    cout<<"!---------now we find out quadrant------------!"<<endl;
+    cout<<"enter value of x : ";
+    cin>>x ;
+    cout<<"enter value of y : ";
+    cin>>y;
+    //i apply quadrant condition
+    if(x>=0& y>=0){
+        cout<<"First quadrant";
+    }
+    else if (x<0 & y>=0){
+        cout<<"second quadrant";
+    }
+    else if (x<0 & y<0){
+        cout<<"Third quadrant";
+    }
+    else if (x>=0 & y<0){
+        cout<<"Four quadrant";
+    }
+    else cout<<"none";
+    
+    
+    
+    return 0;
+}
